@@ -94,7 +94,6 @@ foreach($results as $result)
           <li><a href="car-listing.php">Car Listing</a>
           <li><a href="page.php?type=faqs">FAQs</a></li>
           <li><a href="contact-us.php">Contact Us</a></li>
-          <li><a href="bot.php">bot</a></li>
 
         </ul>
       </div>
