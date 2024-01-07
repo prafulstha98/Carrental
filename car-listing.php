@@ -123,13 +123,16 @@ $error="Something went wrong. Please try again";
 <!-- /Page Header--> 
       
       <!-- Nav tabs -->
-      <div class="recent-tab">
-        <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="active"><a href="#resentnewcar" role="tab" data-toggle="tab">New Car</a></li>
-        </ul>
-      </div>
+
       <!-- Recently Listed New Cars -->
       <div class="tab-content">
+      <h1 id="hiddenr" style="display:none;">Recommended</h1>
+      <div role="tabpanel2" style="display:flex;flex-wrap:wrap;" class="tab-pane active" id="resentnewcar">
+<?php
+include_once('recommend.php');
+?>
+</div>
+<h1>New Cars</h1>
         <div role="tabpanel" style="display:flex;flex-wrap:wrap;" class="tab-pane active" id="resentnewcar">
 
 <?php $sql = "SELECT tblvehicles.VehiclesTitle,tblbrands.BrandName,tblvehicles.PricePerDay,tblvehicles.FuelType,tblvehicles.ModelYear,tblvehicles.id,tblvehicles.SeatingCapacity,tblvehicles.VehiclesOverview,tblvehicles.Vimage1 from tblvehicles join tblbrands on tblbrands.id=tblvehicles.VehiclesBrand";

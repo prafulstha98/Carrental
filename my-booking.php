@@ -118,6 +118,10 @@ foreach($results as $result)
             <ul class="vehicle_listing">
 <?php
 $useremail=$_SESSION['login'];
+if(!isset($_SESSION['user-data'])){
+  $_SESSION['user-data'] = array();
+}
+$_SESSION['user-data'][$useremail] = array();
  $sql = "SELECT tblvehicles.Vimage1 as Vimage1,tblvehicles.VehiclesTitle,tblvehicles.id as vid,tblbrands.BrandName,tblbooking.FromDate,tblbooking.ToDate,tblbooking.message,tblbooking.Status  from tblbooking join tblvehicles on tblbooking.VehicleId=tblvehicles.id join tblbrands on tblbrands.id=tblvehicles.VehiclesBrand where tblbooking.userEmail=:useremail";
 $query = $dbh -> prepare($sql);
 $query-> bindParam(':useremail', $useremail, PDO::PARAM_STR);
@@ -127,7 +131,9 @@ $cnt=1;
 if($query->rowCount() > 0)
 {
 foreach($results as $result)
-{  ?>
+{
+
+  ?>
 
 <li>
                 <div class="vehicle_img"> <a href="vehical-details.php?vhid=<?php echo htmlentities($result->vid);?>""><img src="admin/img/vehicleimages/<?php echo htmlentities($result->Vimage1);?>" alt="image"></a> </div>
@@ -136,7 +142,17 @@ foreach($results as $result)
                   <p><b>From Date:</b> <?php echo htmlentities($result->FromDate);?><br /> <b>To Date:</b> <?php echo htmlentities($result->ToDate);?></p>
                 </div>
                 <?php if($result->Status==1)
-                { ?>
+                { 
+                  $brandName = $result->BrandName;
+            
+                  // Check if the value already exists in the session array
+                  if (!in_array($brandName, $_SESSION['user-data'][$useremail])) {
+                      // If not, add it to the session array
+                      $_SESSION['user-data'][$useremail][] = $brandName;
+                  }
+              
+                 
+                  ?>
                 <div class="vehicle_status"> <a href="#" class="btn outline btn-xs active-btn">Confirmed</a>
                            <div class="clearfix"></div>
         </div>
