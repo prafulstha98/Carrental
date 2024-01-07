@@ -81,7 +81,7 @@ error_reporting(0);
       </div>
       <!-- Recently Listed New Cars -->
       <div class="tab-content">
-        <div role="tabpanel" class="tab-pane active" id="resentnewcar">
+        <div role="tabpanel" style="display:flex;flex-wrap:wrap;" class="tab-pane active" id="resentnewcar">
 
 <?php $sql = "SELECT tblvehicles.VehiclesTitle,tblbrands.BrandName,tblvehicles.PricePerDay,tblvehicles.FuelType,tblvehicles.ModelYear,tblvehicles.id,tblvehicles.SeatingCapacity,tblvehicles.VehiclesOverview,tblvehicles.Vimage1 from tblvehicles join tblbrands on tblbrands.id=tblvehicles.VehiclesBrand";
 $query = $dbh -> prepare($sql);

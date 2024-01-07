@@ -1220,16 +1220,21 @@ nav.navbar {
   width: 12px;
 }
 .col-list-3 {
-  float: left;
-  padding: 0 15px;
-  width: 33%;
+display:flex;
+align-items: stretch;
+flex: 1;
+min-width: 30%; /* Adjust as needed */
+padding: 20px;
+border: 1px solid #ccc;
+box-sizing: border-box;
+margin: 10px;
 }
 .col-list-3:nth-child(3n) {
 	clear:right;
 }
-.col-list-3:nth-child(3n+1) {
+/* .col-list-3:nth-child(3n+1) {
 	clear:left;
-}
+} */
 .recent-car-list {
   background: #ffffff none repeat scroll 0 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -5172,9 +5177,9 @@ h3 {
   padding: 0 15px;
   width: 50%;
 }
-.col-list-3:nth-child(3n+1) {
+/* .col-list-3:nth-child(3n+1) {
   clear: inherit;
-}
+} */
 .blog-info-box ul {
   background: #222222 none repeat scroll 0 0;
   padding: 15px;
