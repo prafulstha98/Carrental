@@ -82,18 +82,75 @@ foreach($results as $result)
   <div class="container">
     <div class="section-header text-center">
 
-    <h2>About Us</h2>
+    <h2>FAQs</h2>
     <p>
-With our more than a decade of experience and the highest number of fleets. 
-Get yourself a best quality vehicle at a best rate quoted anytime. 
-Just install the app or call us at 01-5971616, get your background checked and 
-get a private ride with a self driving car rented from self drive nepal. 
-It’s that easy! Remember us for anytime, anywhere to rent a car and drive yourself. anywhere. 
-We offer you flexible pricing according to your needs for the rental period. 
-Whether it be daily, weekly, monthly or yearly we guarantee the best quality and price for your vehicle 
-rental needs.In this time of era, safety is altogether about the fusion of technology and operations. 
-Our highly technological marketplace with the certification of ISO:9001 2005 ensures 
-the safety and security of the customer 24/7 anytime anywhere.
+
+    <b>General Questions</b>
+    
+1. What do I need to rent a car?
+You will need a valid driver's license, a credit card in your name, and proof of insurance.
+
+2. How old do I need to be to rent a car?
+The minimum age to rent a car is usually 21. However, drivers under 25 may be subject to additional fees and restrictions.
+
+3. Can I rent a car if I don't have a credit card?
+Some locations may accept debit cards, but additional identification and proof of insurance may be required. It's best to check with the specific rental location beforehand.
+
+4. Do you offer one-way rentals?
+Yes, one-way rentals are available between select locations. Additional fees may apply.
+Booking and Reservations
+
+5. How can I make a reservation?
+Reservations can be made online through our website, via our mobile app, or by calling our customer service hotline.
+
+6. Can I modify or cancel my reservation?
+Yes, reservations can be modified or canceled online, through our app, or by contacting customer service. Please review our cancellation policy for any applicable fees.
+
+7. Is there a fee for adding an additional driver?
+Yes, there is a fee for adding additional drivers. However, this fee may be waived for spouses or domestic partners.
+Insurance and Coverage
+
+8. Do I need to purchase additional insurance?
+While it's not required, we recommend purchasing additional coverage for added peace of mind. Your personal auto insurance or credit card may provide some coverage, so check with your provider.
+
+9. What is the damage waiver, and do I need it?
+The damage waiver reduces your financial responsibility for damage to the rental car. It is optional but recommended to avoid high out-of-pocket costs in the event of an accident.
+Vehicle Pickup and Return
+
+10. What do I need to bring when picking up the rental car?
+You will need your driver's license, credit card, and reservation confirmation. If you used a debit card for the reservation, you may need additional identification.
+
+11. Can I return the car outside of business hours?
+Many locations offer after-hours return. Please check with your rental location for specific instructions.
+
+12. What happens if I return the car late?
+Late returns may incur additional fees. If you anticipate being late, please contact the rental location as soon as possible to discuss options.
+
+<b>Fees and Charges</b>
+13. Are there any hidden fees I should be aware of?
+All fees will be disclosed at the time of booking. Common additional fees include those for extra drivers, young drivers, one-way rentals, and late returns.
+
+14. Is there a mileage limit on the rental?
+Most rentals come with unlimited mileage, but some vehicle types and special offers may have mileage restrictions. Be sure to review the terms and conditions of your rental agreement.
+
+
+<b>Special Requests</b>
+15. Can I rent a specific make or model?
+While we cannot guarantee specific makes or models, you can choose a car from a specific category. We will do our best to accommodate your preferences.
+
+16. Do you offer child seats or GPS devices?
+Yes, we offer child seats, GPS devices, and other accessories for an additional fee. Please request these items at the time of booking.
+
+17. Can I take the rental car out of the state or country?
+Out-of-state travel is usually permitted, but international travel may have restrictions. Please check with your rental location for details.
+
+
+<b>Customer Support</b>
+18. What should I do if the car breaks down or I have an accident?
+In case of a breakdown, contact our roadside assistance immediately. If you have an accident, ensure everyone's safety first, then contact the police and our customer service for further instructions.
+
+19. How can I contact customer service?
+You can reach customer service via phone, email, or through our website's live chat feature. Our support team is available 24/7 to assist you.
     </p>
 
 
